@@ -1,7 +1,7 @@
 class Pared:
     def __init__(self, orientacion):
         self.orientacion = orientacion
-        slf.ventanas = []
+        self.ventanas = []
 
 class Ventana:
     def __init__(self, pared, superficie):
