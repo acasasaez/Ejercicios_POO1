@@ -1,6 +1,7 @@
 # Ejercicios_POO1
 
 Ejercicio 2:
+´´´ 
   class Base: 
 
       def __init__(self): 
@@ -35,12 +36,13 @@ Ejercicio 2:
   base = Base() 
   derivada = Derivada() 
 
-  base.A() 
-  derivada.A() 
-  print() 
-  base.B() 
-  derivada.B() 
-  base.C() 
-  derivada.C() 
+  base.A() Resultado: a
+  derivada.A() Resultado: a
+  print() Resultado: Espacio en blanco 
+  base.B() Resultado: b
+  derivada.B() Resultado: bb
+                          bb
+  base.C() Resultado: c
+  derivada.C() Resltado: cc
   derivada = base 
-  derivada.C() 
+  derivada.C() Resultado:c
