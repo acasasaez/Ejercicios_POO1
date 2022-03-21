@@ -50,6 +50,7 @@ Ejercicio 2:
 
 
 Ejercicio 4:
+
 ```
 class Pared:
     def __init__(self, orientacion):
@@ -99,4 +100,5 @@ class ParedCortina(Pared, Ventana):
 pared_cortina = ParedCortina("SUR", 10)
 casa.paredes[2] = pared_cortina 
 print(casa.superficie_cristal()) 
+
 ```
