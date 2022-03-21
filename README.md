@@ -1,7 +1,7 @@
 # Ejercicios_POO1
 
 Ejercicio 2:
-´´´ 
+```
   class Base: 
 
       def __init__(self): 
