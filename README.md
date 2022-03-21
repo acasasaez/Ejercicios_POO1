@@ -99,3 +99,4 @@ class ParedCortina(Pared, Ventana):
 pared_cortina = ParedCortina("SUR", 10)
 casa.paredes[2] = pared_cortina 
 print(casa.superficie_cristal()) 
+```
