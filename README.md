@@ -46,7 +46,7 @@ Ejercicio 2:
   derivada.C() Resltado: cc
   derivada = base # ahora derivada pasa a ser un objeto de tipo Base 
   derivada.C() Resultado:c
-
+```
 
 
 Ejercicio 4:
