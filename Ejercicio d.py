@@ -3,6 +3,15 @@ class Pared:
         self.orientacion = orientacion
         slf.ventanas = []
 
+class Ventana:
+    def __init__(self, pared, superficie, proteccion):
+        self.pared = pared
+        self.superficie = superficie
+        self.pared.ventanas.append(self)
+        if proteccion in None:
+            raise Exception("Protección obligatoria")
+        self.proteccion = proteccion
+
 pared_norte = Pared("NORTE") 
 pared_oeste = Pared("OESTE") 
 pared_sur = Pared("SUR") 
