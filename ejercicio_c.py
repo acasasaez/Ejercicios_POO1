@@ -14,10 +14,23 @@
 
 # Clase superior o base
 class A:
+    # Metodo Constructor
+    def __init__(self, a):
+        self.a = a
+
 
 # Subclase
 class B(A):
-  
+    # Uso de **kwargs en una función se usa para pasar, de forma opcional, un número variable de argumentos 
+    # con nombre. El parámetro recibe los argumentos como un diccionario.
+    # Metodo Constructor
+    def __init__(self, b_param, **kwargs):
+        # Super nos permite invocar y conservar un método o atributo de una clase base 
+        # desde una subclase sin necesidad de nombrarla explícitamente.
+        super().__init__(**kwargs)
+        self.b = b_param
+
+
 
 # Subclase 
 class C(A):
