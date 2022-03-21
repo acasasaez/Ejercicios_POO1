@@ -1,4 +1,7 @@
 # Ejercicios_POO1
+Para presentar nuestro trabajo grupal hemos creado el repositorio de GitHub con dirección: https://github.com/acasasaez/Ejercicios_POO1.git
+
+La tarea consta de 4 ejercicios que hemos resuelto y cuyas soluciones quedan aquí presentes:
 
 Ejercicio 1:
 ```
