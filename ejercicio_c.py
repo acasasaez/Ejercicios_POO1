@@ -10,4 +10,21 @@
 # las apariciones de una clase repetida menos la última.
 
 
+### C L A S E S
 
+# Clase superior o base
+class A:
+
+# Subclase
+class B(A):
+  
+
+# Subclase 
+class C(A):
+    
+## Subclase inferior
+class D(B, C):
+    
+###
+# I N I C I O   P R O G R A M A
+#
