@@ -35,17 +35,14 @@ ventana_este = Ventana(pared_este, 1, "persiana")
 
 # Instanciación de la casa con las 4 paredes 
 casa = Casa([pared_norte, pared_oeste, pared_sur, pared_este]) 
-print(casa.superficie_acristalada()) 
+print(casa.superficie_cristal()) 
 
-casa.paredes[2] = ParedCortina("SUR", 10) 
-print(casa.superficie_acristalada()) 
+class ParedCortina(Pared, Ventana):
+    def __init__(self, orientacion, superficie):
+        Pared.__init__(self, orientacion)
+        Ventana.__init__(self, self, superficie, "Ninguna")
+    
 
-ventana_norte = Ventana(pared_norte, 0.5) 
->>> TypeError: __init__() missing 1 required positional argument: 
-'proteccion' 
-ventana_norte = Ventana(pared_norte, 0.5, None) 
->>> Exception: Protección obligatoria 
-ventana_norte = Ventana(pared_norte, 0.5, "Persiana") 
-[...] 
-print(casa.superficie_acristalada()) 
->>> 4.5 
+pared_cortina = ParedCortina("SUR", 10)
+casa.paredes[2] = pared_cortina 
+print(casa.superficie_cristal()) 
