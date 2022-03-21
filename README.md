@@ -46,7 +46,7 @@ class Punto3D:
 Punto3D
 ```
 
-Ejercicio 2:
+Ejercicio 2: En este apartado se nos pide que resultado mostrarán en pantalla el sieguiente programa:
 ```
   class Base: 
 
