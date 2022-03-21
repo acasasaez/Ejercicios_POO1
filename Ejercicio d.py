@@ -18,10 +18,10 @@ pared_sur = Pared("SUR")
 pared_este = Pared("ESTE") 
 
 # Instanciación de las ventanas 
-ventana_norte = Ventana(pared_norte, 0.5) 
-ventana_oeste = Ventana(pared_oeste, 1) 
-ventana_sur = Ventana(pared_sur, 2) 
-ventana_este = Ventana(pared_este, 1) 
+ventana_norte = Ventana(pared_norte, 0.5, "persiana") 
+ventana_oeste = Ventana(pared_oeste, 1, "persiana") 
+ventana_sur = Ventana(pared_sur, 2, "store venitien") 
+ventana_este = Ventana(pared_este, 1, "persiana") 
 
 # Instanciación de la casa con las 4 paredes 
 casa = Casa([pared_norte, pared_oeste, pared_sur, pared_este]) 
